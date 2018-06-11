@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { DayOneService } from '../../services/day-one.service';
 
 /**
  * Generated class for the DayOnePage page.
@@ -15,11 +16,13 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class DayOnePage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  constructor(public navCtrl: NavController, public navParams: NavParams,
+  private dayService: DayOneService) {
   }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad DayOnePage');
   }
 
+  sections = this.dayService.sections;
 }
