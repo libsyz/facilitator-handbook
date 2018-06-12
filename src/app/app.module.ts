@@ -19,6 +19,10 @@ import { DayThreePage } from './../pages/day-three/day-three';
 import { DayTwoPage } from './../pages/day-two/day-two';
 import { DayOnePage } from './../pages/day-one/day-one';
 
+import { TasksPage } from './../pages/tasks/tasks';
+
+
+
 
 @NgModule({
   declarations: [
@@ -29,7 +33,8 @@ import { DayOnePage } from './../pages/day-one/day-one';
     TabsPage,
     DayOnePage,
     DayTwoPage,
-    DayThreePage
+    DayThreePage,
+    TasksPage
   ],
   imports: [
     BrowserModule,
@@ -44,7 +49,8 @@ import { DayOnePage } from './../pages/day-one/day-one';
     TabsPage,
     DayOnePage,
     DayTwoPage,
-    DayThreePage
+    DayThreePage,
+    TasksPage
   ],
   providers: [
     StatusBar,

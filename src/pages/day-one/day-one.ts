@@ -1,3 +1,4 @@
+import { TasksPage } from './../tasks/tasks';
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { DayOneService } from '../../services/day-one.service';
@@ -24,5 +25,9 @@ export class DayOnePage {
     console.log('ionViewDidLoad DayOnePage');
   }
 
-  sections = this.dayService.sections;
+  sections = this.dayService.sections_one;
+
+  onGoToTaskPage(section) {
+    this.navCtrl.push(TasksPage, {section: section})
+  }
 }

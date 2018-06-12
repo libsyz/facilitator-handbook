@@ -6,13 +6,19 @@
 -->
 <ion-header>
 
-  <ion-navbar>
-    <ion-title text-center> Day 2 </ion-title>
-  </ion-navbar>
-
-</ion-header>
-
-
-<ion-content padding>
+    <ion-navbar>
+        <ion-title text-center> UHG GMP Facilitator Guide </ion-title>
+      </ion-navbar>
+    
+    </ion-header>
+    
+    
+    <ion-content padding>
+        <ion-list>
+            <button ion-item detail-push inset ion-item *ngFor="let item of sections" (click)='onGoToTaskPage(item)'>
+              <h4>{{ item.title }} </h4>
+              <p> {{ item.time }} </p>
+            </button>  
+          </ion-list>
 
 </ion-content>
