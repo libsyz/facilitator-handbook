@@ -3,7 +3,7 @@ export class DayOneService {
     sections_one: object[] = [
         {
          title: "Breakfast / Group Photos",
-         time: "7:00-8:00",
+         time: "7.00-8.00",
          actions: [
                    {
                     description: "scitrain team is NOT part of the group photo",
@@ -25,7 +25,7 @@ export class DayOneService {
         },
         {
             title: "Introduction (Facilitated by Anna & UHG Facilitators)",
-            time: "8:00-9:00",
+            time: "8.00-9.00",
             actions: [
                       {
                        description: "All facilitators to introduce themselves briefly. Say your name, role (facilitator / observer / coach) and share the number of GMP's you have attended in the past ",
@@ -59,7 +59,7 @@ export class DayOneService {
            },
            {
             title: "Facilitator Briefing (Facilitated by Anna)",
-            time: "9:00-10:15",
+            time: "9.00-10.15",
             actions: [
                       {
                        description: "Align on use of UHG Competency Model",
@@ -81,7 +81,7 @@ export class DayOneService {
            },
            {
             title: "Coffee Break",
-            time: "10:15-10.30",
+            time: "10.15-10.30",
             actions: [
                       {
                        description: "Grab a drink / snack :-)",
@@ -110,7 +110,7 @@ export class DayOneService {
                        done: false
                       },
                       {
-                       description: "Take Feedback Notes in sciApp <br> (take notes for EVERY participant you will write the report part for! This means you need to take feedback notes even if you do not deliver the feedback as main feedback provider when you have a UHG co-oberver.",
+                       description: "Take Feedback Notes in sciApp (take notes for EVERY participant you will write the report part for! This means you need to take feedback notes even if you do not deliver the feedback as main feedback provider when you have a UHG co-oberver.",
                        done: false
                       },
                       {
@@ -121,7 +121,7 @@ export class DayOneService {
            },
            {
             title: "Lunch",
-            time: "12:15-12.45",
+            time: "12.15-12.45",
             actions: [
                       {
                        description: "Lunch in the Foyer",
@@ -139,7 +139,7 @@ export class DayOneService {
            },
            {
             title: "Strategy Discussion",
-            time: "12:45-1:30",
+            time: "12.45-1.30",
             actions: [
                       {
                        description: "Hand in INTERNAL Memorandum",
@@ -161,7 +161,7 @@ export class DayOneService {
            },
            {
             title: "Coffee Break",
-            time: "2:20-2.30",
+            time: "2.20-2.30",
             actions: [
                       {
                        description: "Grab a drink / snack :-)",
@@ -265,7 +265,7 @@ export class DayOneService {
         sections_two: object[] = [
             {
              title: "Breakfast",
-             time: "7:00-8:00",
+             time: "7.00-8.00",
              actions: [
                        {
                         description: "Arrive at Center Venue by 7.30 am and have breakfast",
@@ -275,7 +275,7 @@ export class DayOneService {
             },
             {
                 title: "Scitrain Facilitator Meeting",
-                time: "8:00-8.20",
+                time: "8.00-8.20",
                 actions: [
                           {
                            description: "Meet in facilitator briefing room for alignment with rest of team",
@@ -315,7 +315,7 @@ export class DayOneService {
                },
                {
                 title: "Coffee Break",
-                time: "10:10-10.15",
+                time: "10.10-10.15",
                 actions: [
                           {
                            description: "Familiarize yourself with the next step after the break",
@@ -367,7 +367,7 @@ export class DayOneService {
                },
                {
                 title: "Lunch",
-                time: "11:40-12.20",
+                time: "11.40-12.20",
                 actions: [
                           {
                            description: "Lunch in the Foyer",
@@ -407,7 +407,7 @@ export class DayOneService {
                },
                {
                 title: "Coffee Break",
-                time: "2:10-2.20",
+                time: "2.10-2.20",
                 actions: [
                     {
                         description: "Familiarize yourself with the next step after the break",
@@ -527,7 +527,7 @@ export class DayOneService {
                },
                {
                 title: "NO Writing Executive Summaries",
-                time: "as of 7:30",
+                time: "as of 7.30",
                 actions: [
                           {
                            description: "No more exec summary writing over night!",

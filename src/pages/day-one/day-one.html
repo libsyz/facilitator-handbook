@@ -15,9 +15,11 @@
 
 <ion-content padding>
     <ion-list>
-        <button ion-item detail-push inset ion-item *ngFor="let item of sections" (click)='onGoToTaskPage(item)'>
-          <h4>{{ item.title }} </h4>
-          <p> {{ item.time }} </p>
+        <button ion-item detail-push ion-item *ngFor="let item of sections" (click)='onGoToTaskPage(item)'>
+
+          {{ item.title }} 
+          
+          <p> <ion-icon name="ios-time-outline"></ion-icon> {{ item.time }} </p>
         </button>  
       </ion-list>
 

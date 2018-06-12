@@ -4,7 +4,7 @@ import { TasksPage } from './tasks';
 
 @NgModule({
   declarations: [
-    TasksPage,
+
   ],
   imports: [
     IonicPageModule.forChild(TasksPage),

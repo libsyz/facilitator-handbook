@@ -7,20 +7,15 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title>{{ section.time }} </ion-title>
+    <ion-title text-center>{{ section.time }} </ion-title>
   </ion-navbar>
 
 </ion-header>
 
 
 <ion-content padding>
-  <ion-list>
-    <ion-item *ngFor="let action of section.actions">
-      <button>
-          <ion-icon name="ios-checkbox-outline" item-start></ion-icon>
-      {{ action.description  }} 
-      </button>
-    </ion-item>
-  </ion-list>
+  <ion-card *ngFor="let action of section.actions">
+          <ion-card-content> <ion-icon name="checkbox-outline"></ion-icon> {{ action.description  }} </ion-card-content>
+  </ion-card>
 
 </ion-content>
